@@ -167,7 +167,7 @@
 - type: latheRecipe
   parent: BaseWeaponRecipe
   id: WeaponEnergyCrossbow
-  result: WeaponEnergyCrossbow
+  result: MiniatureEnergyCrossbow
   materials:
     Titanium: 400
     Glass: 300
@@ -269,14 +269,14 @@
     Glass: 300
     Plasma: 200
 
-- type: latheRecipe
-  id: SingularityGrenade
-  parent: TypanBaseExplosiveRecipe
-  result: SingularityGrenade
-  materials:
-    Titanium: 200
-    Plasma: 400
-    Uranium: 100
+# - type: latheRecipe
+#   id: SingularityGrenade
+#   parent: TypanBaseExplosiveRecipe
+#   result: SingularityGrenade
+#   materials:
+#     Titanium: 200
+#     Plasma: 400
+#     Uranium: 100
 
 # Ammo
 
@@ -309,8 +309,8 @@
     Silver: 100
 
 - type: latheRecipe
-  id: ADTClothingShoesBootsMagAdvSynd
-  result: ADTClothingShoesBootsMagAdvSynd
+  id: ClothingShoesBootsMagAdvSynd
+  result: ClothingShoesBootsMagAdvSynd
   completetime: 10
   materials:
     Titanium: 1000
@@ -318,8 +318,8 @@
     Gold: 100
 
 - type: latheRecipe
-  id: ClothingEyesPNVAdvSyndicate
-  result: ClothingEyesPNVAdvSyndicate
+  id: ClothingEyesNightVisionGogglesSyndie
+  result: ClothingEyesNightVisionGogglesSyndie
   completetime: 4
   materials:
     Titanium: 200
@@ -468,14 +468,14 @@
   id: SawAdvanced
   result: SawAdvanced
 
-- type: latheRecipe
-  id: ADTCyberHypospray
-  result: ADTCyberHypospray
-  completetime: 10
-  materials:
-    Titanium: 200
-    Glass: 400
-    Silver: 300
+# - type: latheRecipe
+#   id: ADTCyberHypospray
+#   result: ADTCyberHypospray
+#   completetime: 10
+#   materials:
+#     Titanium: 200
+#     Glass: 400
+#     Silver: 300
 
 - type: latheRecipe
   id: Hypopen

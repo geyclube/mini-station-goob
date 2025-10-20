@@ -12,7 +12,11 @@
   recipeUnlocks:
   - WeaponProtoKineticAccelerator
   - ShuttleGunKineticCircuitboard
-  - BorgModuleMiningWeapon
+   # Goobstation R&D Console rework start
+  position: 0,-8
+  technologyPrerequisites:
+  - TypanMagnetsTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanDraconicMunitions
@@ -35,7 +39,11 @@
   - MagazineBoxMagnumIncendiary
   - MagazineBoxLightRifleIncendiary
   - MagazineBoxRifleIncendiary
-  - MagazineBox357Incendiary
+   # Goobstation R&D Console rework start
+  position: 0,-8
+  technologyPrerequisites:
+  - TypanMagnetsTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanNonlethalAmmunition
@@ -51,6 +59,11 @@
   - BoxShellTranquilizer
   - BoxBeanbag
   - WeaponDisabler
+   # Goobstation R&D Console rework start
+  position: 0,-8
+  technologyPrerequisites:
+  - TypanMagnetsTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanUraniumMunitions
@@ -72,6 +85,11 @@
   - MagazineBoxLightRifleUranium
   - MagazineBoxRifleUranium
   - BoxShotgunUranium
+     # Goobstation R&D Console rework start
+  position: 0,-8
+  technologyPrerequisites:
+  - TypanMagnetsTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanAdvancedRiotControl
@@ -87,6 +105,11 @@
   - TelescopicShield
   - HoloprojectorSecurity
   - WeaponDisablerSMG
+     # Goobstation R&D Console rework start
+  position: 0,-8
+  technologyPrerequisites:
+  - TypanMagnetsTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanExplosiveTechnology
@@ -105,6 +128,11 @@
   - FlashPayload
   - ExplosivePayload
   - ChemicalPayload
+     # Goobstation R&D Console rework start
+  position: 0,-8
+  technologyPrerequisites:
+  - TypanMagnetsTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanSpecialMeans
@@ -117,6 +145,11 @@
   cost: 7500
   recipeUnlocks:
   - ClothingBackpackElectropack
+     # Goobstation R&D Console rework start
+  position: 0,-8
+  technologyPrerequisites:
+  - TypanMagnetsTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanBasicPistols
@@ -130,6 +163,11 @@
   recipeUnlocks:
   - WeaponPistolViper
   - WeaponRevolverPython
+     # Goobstation R&D Console rework start
+  position: 0,-8
+  technologyPrerequisites:
+  - TypanMagnetsTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanEdgedWeapons
@@ -143,6 +181,11 @@
   recipeUnlocks:
   - ClothingHandsKnuckleDustersSyndicate
   - ThrowingKnife
+     # Goobstation R&D Console rework start
+  position: 0,-8
+  technologyPrerequisites:
+  - TypanMagnetsTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanCombatGloves
@@ -156,6 +199,11 @@
   recipeUnlocks:
   - ClothingHandsGlovesNorthStar
   - ClothingHandsGlovesBoxingRigged
+     # Goobstation R&D Console rework start
+  position: 0,-8
+  technologyPrerequisites:
+  - TypanMagnetsTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanBasicRifles
@@ -168,6 +216,11 @@
   cost: 7500
   recipeUnlocks:
   - WeaponSniperMosin
+     # Goobstation R&D Console rework start
+  position: 0,-8
+  technologyPrerequisites:
+  - TypanMagnetsTech
+  # Goobstation R&D Console rework end
 
 # Tier 2
 
@@ -193,9 +246,12 @@
   - ShuttleGunPerforatorCircuitboard
   - ShuttleGunFriendshipCircuitboard
   - ShuttleGunDusterCircuitboard
+     # Goobstation R&D Console rework start
+  position: 0,-8
   technologyPrerequisites:
   - TypanSalvageWeapons
   - TypanExplosiveTechnology
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanNightVisionTechnology
@@ -207,7 +263,12 @@
   tier: 2
   cost: 15000
   recipeUnlocks:
-  - ClothingEyesPNVAdvSyndicate
+  - ClothingEyesNightVisionGogglesSyndie
+     # Goobstation R&D Console rework start
+  position: 0,-8
+  technologyPrerequisites:
+  - TypanMagnetsTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanAdvancedPistols
@@ -220,9 +281,11 @@
   cost: 15000
   recipeUnlocks:
   - WeaponPistolCobra
-  - WeaponPistolDesertEagle
+     # Goobstation R&D Console rework start
+  position: 0, 1
   technologyPrerequisites:
   - TypanBasicPistols
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanGrenades
@@ -241,8 +304,11 @@
   - GrenadeIncendiary
   - ClusterGrenade
   - EmpGrenade
+     # Goobstation R&D Console rework start
+  position: 0,-8
   technologyPrerequisites:
   - TypanExplosiveTechnology
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanSniperRifles
@@ -255,8 +321,11 @@
   cost: 15000
   recipeUnlocks:
   - WeaponSniperHristov
+     # Goobstation R&D Console rework start
+  position: 0,-8
   technologyPrerequisites:
   - TypanBasicRifles
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanSMGs
@@ -269,9 +338,11 @@
   cost: 15000
   recipeUnlocks:
   - WeaponSubMachineGunC20r
-  - WeaponSMGTommyGun
+     # Goobstation R&D Console rework start
+  position: 0,-8
   technologyPrerequisites:
   - TypanBasicRifles
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanAssaultRifles
@@ -283,10 +354,12 @@
   tier: 2
   cost: 15000
   recipeUnlocks:
-  - ADTWeaponRifleXC67
   - WeaponRifleAk
+     # Goobstation R&D Console rework start
+  position: 0,-8
   technologyPrerequisites:
   - TypanBasicRifles
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanShotguns
@@ -299,6 +372,11 @@
   cost: 15000
   recipeUnlocks:
   - WeaponShotgunBulldog
+     # Goobstation R&D Console rework start
+  position: 0,-8
+  technologyPrerequisites:
+  - TypanBasicRifles
+  # Goobstation R&D Console rework end
 
 # Tier 3
 
@@ -314,10 +392,12 @@
   recipeUnlocks:
   - HolyHandGrenade
   - WhiteholeGrenade
-  - SingularityGrenade
+  - TypanBasicShuttleArmament
+  # Goobstation R&D Console rework start
+  position: 0,-8
   technologyPrerequisites:
   - TypanGrenades
-  - TypanBasicShuttleArmament
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanHeavyWeapons
@@ -330,8 +410,11 @@
   cost: 30000
   recipeUnlocks:
   - WeaponLightMachineGunL6
+  # Goobstation R&D Console rework start
+  position: 0,-8
   technologyPrerequisites:
   - TypanAssaultRifles
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanGrenadeLaunchers
@@ -344,17 +427,25 @@
   cost: 30000
   recipeUnlocks:
   - WeaponLauncherChinaLake
+  # Goobstation R&D Console rework start
+  position: 0,-8
   technologyPrerequisites:
   - TypanGrenades
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanSpecialWeapons
   name: research-technology-special-weapons
   icon:
-    sprite: _Mini/Objects/Weapons/Guns/Bow/crossbow.rsi
+    sprite: _Goobstation/Objects/Weapons/Guns/Bow/hardlight_bow.rsi
     state: icon
   discipline: TypanWeaponry
   tier: 3
   cost: 30000
   recipeUnlocks:
   - WeaponEnergyCrossbow
+  # Goobstation R&D Console rework start
+  position: 0,-1
+  # technologyPrerequisites:
+  # - TypanGrenades
+  # Goobstation R&D Console rework end

@@ -14,6 +14,11 @@
   - MineralScannerEmpty
   - OreProcessorIndustrialMachineCircuitboardTypan
   - ClothingMaskWeldingGas
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanSpaceScanning
@@ -27,6 +32,11 @@
   recipeUnlocks:
   - RadarConsoleCircuitboard
   - HandHeldMassScanner
+  # Goobstation R&D Console rework start
+  position: 0,1
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanAdvancedPowercells
@@ -41,6 +51,11 @@
   - PowerCellHigh
   - TurboItemRechargerCircuitboard
   - SMESAdvancedMachineCircuitboard
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanMechanicalCompression
@@ -53,6 +68,11 @@
   cost: 7500
   recipeUnlocks:
   - FlatpackerMachineCircuitboard
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanIndustrialEngineering
@@ -68,6 +88,11 @@
   - ProtolatheHyperConvectionMachineCircuitboardTypan
   - CircuitImprinterHyperConvectionMachineCircuitboardTypan
   - SheetifierMachineCircuitboard
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanPowerGeneration
@@ -85,6 +110,11 @@
   - SolarControlComputerCircuitboard
   - SolarTrackerElectronics
   - EmitterCircuitboard
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanAtmosphericTech
@@ -98,6 +128,11 @@
   recipeUnlocks:
   - ThermomachineFreezerMachineCircuitBoard
   - GasRecyclerMachineCircuitboard
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanRipley
@@ -117,6 +152,11 @@
   - TypanRipleyCentralElectronics
   - TypanRipleyPeripheralsElectronics
   - MechEquipmentTypanRipleyGrabber
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanHardsuitsBasic
@@ -130,6 +170,11 @@
   recipeUnlocks:
   - ClothingOuterEVASuitSyndicate
   - ClothingHeadHelmetSyndicate
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 # Tier 2
 
@@ -148,6 +193,11 @@
   - ThrusterMachineCircuitboard
   - GyroscopeMachineCircuitboard
   - MiniGravityGeneratorCircuitboard
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanAdvancedAtmospherics
@@ -162,8 +212,11 @@
   - HellfireFreezerMachineCircuitBoard
   - PortableScrubberMachineCircuitBoard
   - HolofanProjector
+  # Goobstation R&D Console rework start
+  position: 0,-4
   technologyPrerequisites:
   - TypanAtmosphericTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanAdvancedToolsTechnology
@@ -181,6 +234,11 @@
   - BorgModuleAdvancedTool
   - Fulton
   - FultonBeacon
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - TypanAtmosphericTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanMassExcavation
@@ -196,6 +254,11 @@
   - AdvancedMineralScannerEmpty
   - SalvageExpeditionsComputerCircuitboard
   - BorgModuleAdvancedMining
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - TypanAtmosphericTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanHUD
@@ -212,6 +275,11 @@
   - ClothingEyesHudTypanRecruit
   - ClothingEyesHudTypanResearch
   - ClothingEyesHudTypanAdvanced
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - TypanAtmosphericTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanHardsuits
@@ -225,8 +293,11 @@
   recipeUnlocks:
   - ClothingOuterHardsuitSyndie
   - ClothingOuterHardsuitSyndieMedic
+  # Goobstation R&D Console rework start
+  position: 0,-4
   technologyPrerequisites:
   - TypanHardsuitsBasic
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanEliteHardsuits
@@ -240,8 +311,11 @@
   recipeUnlocks:
   - ClothingOuterHardsuitSyndieElite
   - ClothingOuterHardsuitSyndieCommander
+  # Goobstation R&D Console rework start
+  position: 0,-4
   technologyPrerequisites:
   - TypanHardsuits
+  # Goobstation R&D Console rework end
 
 # Tier 3
 
@@ -257,8 +331,11 @@
   recipeUnlocks:
   - PowerCellMicroreactor
   - PowerCellHyper
+  # Goobstation R&D Console rework start
+  position: 0,-4
   technologyPrerequisites:
-  - TypanAdvancedPowercells
+  - TypanHardsuits
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanHeavyHardsuits
@@ -271,5 +348,8 @@
   cost: 30000
   recipeUnlocks:
   - ClothingOuterHardsuitJuggernaut
+  # Goobstation R&D Console rework start
+  position: 0,-4
   technologyPrerequisites:
   - TypanEliteHardsuits
+  # Goobstation R&D Console rework end

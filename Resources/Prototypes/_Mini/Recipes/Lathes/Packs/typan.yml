@@ -52,7 +52,6 @@
   - EmpGrenade
   - HolyHandGrenade
   - WhiteholeGrenade
-  - SingularityGrenade
 
 ## Ammo
 - type: latheRecipePack
@@ -125,7 +124,7 @@
   id: TypanScienceClothing
   recipes:
   - ClothingShoesBootsMagSyndie
-  - ADTClothingShoesBootsMagAdvSynd
+  - ClothingShoesBootsMagAdvSynd
   - ClothingShoesBootsMoon
 
 ## Robotics
@@ -326,7 +325,6 @@
   id: TypanMedical
   recipes:
   - SyndiHypo
-  - ADTCyberHypospray
   - Hypopen
   - HypoDart
   - DefibrillatorSyndicate
@@ -373,7 +371,7 @@
   - ClothingEyesHudTypanRecruit
   - ClothingEyesHudTypanResearch
   - ClothingEyesHudTypanAdvanced
-  - ClothingEyesPNVAdvSyndicate
+  - ClothingEyesNightVisionGogglesSyndie
   - EmagTypanLimited
   - ChameleonPDA
   - ChameleonProjector

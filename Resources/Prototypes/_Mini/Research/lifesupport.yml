@@ -13,6 +13,11 @@
   - SeedExtractorMachineCircuitboard
   - HydroponicsTrayMachineCircuitboard
   - ReagentGrinderIndustrialMachineCircuitboard
+    # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanAdvancedEntertainment
@@ -27,6 +32,11 @@
   - SynthesizerInstrument
   - DawInstrumentMachineCircuitboard
   - JukeboxCircuitBoard
+    # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanMeatManipulation
@@ -41,6 +51,11 @@
   - FatExtractorMachineCircuitboard
   - BiofabricatorMachineCircuitboardTypan
   - BiomassReclaimerMachineCircuitboard
+    # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanFauxAstroTiles
@@ -58,6 +73,11 @@
   - FauxTileAstroIce
   - FauxTileAstroSnow
   - FauxTileAstroAsteroidSand
+    # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanBasicHypospray
@@ -69,7 +89,12 @@
   tier: 1
   cost: 7500
   recipeUnlocks:
-  - ADTCyberHypospray
+  - SyndiHypo
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - SpaceScanning
+  # Goobstation R&D Console rework end
 
 # Tier 2
 
@@ -86,8 +111,11 @@
   - AbominationCube
   - SpaceCarpCube
   - SpaceTickCube
+  # Goobstation R&D Console rework start
+  position: 0,-4
   technologyPrerequisites:
   - TypanMeatManipulation
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanBiochemicalStasis
@@ -103,6 +131,11 @@
   - CryoPodMachineCircuitboard
   - CryostasisBeaker
   - SyringeCryostasis
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - TypanMeatManipulation
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanMechanizedTreatment
@@ -115,6 +148,11 @@
   cost: 15000
   recipeUnlocks:
   - BorgModuleAdvancedChemical
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - TypanMeatManipulation
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanAdvancedCleaning
@@ -130,6 +168,11 @@
   - MegaSprayBottle
   - BagOfSummoningGarbage
   - BorgModuleAdvancedCleaning
+    # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - TypanMeatManipulation
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanAdvancedSpray
@@ -143,6 +186,11 @@
   recipeUnlocks:
   - WeaponSprayNozzle
   - ClothingBackpackWaterTank
+    # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - TypanMeatManipulation
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanBluespaceCargoTransport
@@ -155,6 +203,12 @@
   cost: 15000
   recipeUnlocks:
   - CargoTelepadMachineCircuitboardTypan
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - TypanMeatManipulation
+  # Goobstation R&D Console rework end
+
 
 - type: technology
   id: TypanHypopen
@@ -168,6 +222,11 @@
   recipeUnlocks:
   - Hypopen
   - HypoDart
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - TypanMeatManipulation
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanArmorVest
@@ -181,6 +240,11 @@
   recipeUnlocks:
   - ClothingOuterVestWeb
   - ClothingOuterVestWebElite
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - TypanMeatManipulation
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanChameleonClothing
@@ -203,6 +267,11 @@
   - ClothingShoesChameleon
   - ClothingUniformJumpsuitChameleon
   - ChameleonPDA
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - TypanMeatManipulation
+  # Goobstation R&D Console rework end
 
 # Tier 3
 
@@ -219,6 +288,11 @@
   - CloningPodMachineCircuitboard
   - MedicalScannerMachineCircuitboard
   - CloningConsoleComputerCircuitboard
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - TypanMeatManipulation
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanAdvancedHypospray
@@ -231,6 +305,11 @@
   cost: 30000
   recipeUnlocks:
   - SyndiHypo
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - TypanMeatManipulation
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: TypanDefibrillatorSyndicate
@@ -243,3 +322,8 @@
   cost: 30000
   recipeUnlocks:
   - DefibrillatorSyndicate
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+  - TypanMeatManipulation
+  # Goobstation R&D Console rework end
