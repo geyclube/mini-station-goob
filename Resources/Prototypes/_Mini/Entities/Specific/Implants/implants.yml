@@ -15,8 +15,8 @@
     mobState:
     - Critical
     - Dead
-  - type: RattleOnTrigger
-    radioChannel: Typan
+  - type: Rattle
+    radioChannel: Syndicate
 
 - type: entity
   id: DeathRattleImplanterTypan
