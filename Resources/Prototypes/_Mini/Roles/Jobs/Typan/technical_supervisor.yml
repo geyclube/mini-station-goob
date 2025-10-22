@@ -11,12 +11,6 @@
   supervisors: job-supervisors-syndicate
   canBeAntag: false
   requirements:
-  - !type:RoleTimeRequirement
-    role: JobTypanCargotech
-    time: 36000 # 10 hours
-  - !type:RoleTimeRequirement
-    role: JobTypanAtmosphericsEngineer
-    time: 18000 # 5 hours
   - !type:DepartmentTimeRequirement
     department: Typan
     time: 144000 # 40 hours
