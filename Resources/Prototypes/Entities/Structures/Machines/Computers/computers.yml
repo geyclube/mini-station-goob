@@ -755,7 +755,7 @@
   - type: UserInterface
     interfaces:
       enum.ResearchConsoleUiKey.Key:
-        type: FancyResearchConsoleBoundUserInterface # R&D Console rework
+        type: ResearchConsoleBoundUserInterface # R&D Console rework
       enum.ResearchClientUiKey.Key:
         type: ResearchClientBoundUserInterface
       enum.WiresUiKey.Key:

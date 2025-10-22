@@ -38,7 +38,7 @@
   id: ResearchAndDevelopmentServerTypan
   parent: ResearchAndDevelopmentServer
   name: сервер РнД
-  description: Содержит коллективные знания ученых станции. Уничтожив его, они вернулись бы в каменный век. Вы же этого не хотите, не так ли?
+  description: Содержит коллективные знания ученых синдиката. Уничтожив его, они вернулись бы в каменный век. Вы же этого не хотите, не так ли?
   suffix: Тайпан
   components:
   - type: Sprite

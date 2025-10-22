@@ -138,7 +138,7 @@
   - type: ResearchConsole
   - type: ActiveRadio
     channels:
-    - Science
+    - Syndicate
   - type: TechnologyDatabase
   - type: ActivatableUI
     key: enum.ResearchConsoleUiKey.Key
