@@ -2,37 +2,31 @@
 
 - type: entity
   id: TypanRipleyCentralElectronics
-  parent: BaseElectronics
+  parent: RipleyCentralElectronics
   name: центральный модуль управления кроваво-красного Рипли
   description: Центр управления электрооборудованием кроваво-красного Рипли.
   components:
-  - type: Item
-    storedRotation: 0
-  - type: Sprite
-    sprite: _Mini/Objects/Misc/module.rsi
-    state: mainboard
+  # - type: Item
+  #   storedRotation: 0
   - type: Tag
     tags:
     - TypanRipleyCentralControlModule
-  - type: GuideHelp
-    guides:
-    - Robotics
+  # - type: GuideHelp
+  #   guides:
+  #   - Robotics
 
 - type: entity
   id: TypanRipleyPeripheralsElectronics
-  parent: BaseElectronics
+  parent: RipleyPeripheralsElectronics
   name: модуль управления периферией кроваво-красного Рипли
   description: Система управления электрическими периферийными устройствами кроваво-красного Рипли.
   components:
-  - type: Sprite
-    sprite: _Mini/Objects/Misc/module.rsi
-    state: id_mod
   - type: Tag
     tags:
     - TypanRipleyPeripheralsControlModule
-  - type: GuideHelp
-    guides:
-    - Robotics
+  # - type: GuideHelp
+  #   guides:
+  #   - Robotics
 
 - type: Tag
   id: TypanRipleyPeripheralsControlModule
