@@ -34,8 +34,9 @@
                             <Button Name="Guidebook" Text="{Loc 'server-info-guidebook-button'}" MinSize="125 10" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
                             <changelog:ChangelogButton Name="Changelog" MinSize="125 10" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
                             <vote:VoteCallMenuButton Name="CallVoteButton" MinSize="125 10" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+                            <!-- <Button Name="Wiki" Text="Вики" MinSize="125 10" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/> -->
                             <controls:VSpacer Spacing="25"/>
-                            <TextureRect TextureScale="0.18 0.18" Stretch="KeepCentered" TexturePath="/Textures/Interface/main_logo.png" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+                            <TextureRect TextureScale="0.2 0.2" Stretch="KeepCentered" TexturePath="/Textures/Interface/main_logo.png" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
                             <controls:VSpacer Spacing="25"/>
                             <Button Name="Boosty" Text="Бусти" MinSize="125 10" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
                             <Button Name="Discord" Text="Дискорд" MinSize="125 10" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
@@ -53,7 +54,7 @@
                     <PanelContainer Name="LeftPanel" MinWidth="300" StyleClasses="LobbyBackground" HorizontalExpand="True" VerticalExpand="True">
                         <BoxContainer Orientation="Vertical" HorizontalExpand="True" VerticalExpand="True" Margin="8 8 8 8" VerticalAlignment="Stretch">
                             <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="8 8 8 8">
-                                <info:ServerInfo Name="ServerInfo" Access="Public" MinSize="0 30" VerticalExpand="True" HorizontalExpand="True" HorizontalAlignment="Stretch"/>
+                                <info:ServerInfo Name="ServerInfo" Access="Public" MinSize="0 30" VerticalExpand="True" HorizontalExpand="False" HorizontalAlignment="Stretch"/>
                             </BoxContainer>
                             <Label Name="StationTime" Access="Public" FontColorOverride="{x:Static maths:Color.LightGray}" HorizontalAlignment="Left"/>
                             <controls:HLine Color="#404040" Thickness="1" Margin="0 5"/>

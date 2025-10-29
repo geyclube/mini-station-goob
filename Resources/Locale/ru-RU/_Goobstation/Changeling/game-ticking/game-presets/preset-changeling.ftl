@@ -13,7 +13,9 @@ roundend-prepend-changeling-absorbed = Кто-то поглотил всего [
 roundend-prepend-changeling-stolen = Кто-то извлек всего [color=orange]{ $number }[/color] образцов ДНК.
 changeling-gamemode-title = Генокрады
 changeling-gamemode-description = Улей Генокрадов захватил станцию,
-    готовый забрать всё, что пожелаешь — ваше снаряжение, ваши лица или ваши жизни!
+    готовый забрать всё,
+    что пожелаешь — ваше снаряжение,
+    ваши лица или ваши жизни!
 changeling-role-greeting =
     Вы — генокрад, который поглотил и принял облик { $name }!
     Ваши цели указаны в меню персонажа.
