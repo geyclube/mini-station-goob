@@ -263,14 +263,6 @@
       roleLoadout:
       - RoleSurvivalNukie
       components:
-      - type: Skills # CorvaxGoob-Skills
-        skills:
-        - ShuttleControl
-        - Shooting
-        - AdvancedBuilding
-        - Surgery
-        - MedicalEquipment
-        - Butchering
       # Mini edit start
       - type: GhostPanelAntagonistMarker
         name: ghost-panel-antagonist-nukeops-name
@@ -298,14 +290,6 @@
       roleLoadout:
       - RoleSurvivalNukie
       components:
-      - type: Skills # CorvaxGoob-Skills
-        skills:
-        - ShuttleControl
-        - Shooting
-        - AdvancedBuilding
-        - Surgery
-        - MedicalEquipment
-        - Butchering
       # Mini edit start
       - type: GhostPanelAntagonistMarker
         name: ghost-panel-antagonist-nukeops-name
@@ -337,14 +321,6 @@
       roleLoadout:
       - RoleSurvivalNukie
       components:
-      - type: Skills # CorvaxGoob-Skills
-        skills:
-        - ShuttleControl
-        - Shooting
-        - AdvancedBuilding
-        - Surgery
-        - MedicalEquipment
-        - Butchering
       # Mini edit start
       - type: GhostPanelAntagonistMarker
         name: ghost-panel-antagonist-nukeops-name
