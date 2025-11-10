@@ -627,7 +627,7 @@
   description: uplink-shrapnel-grenade-desc
   productEntity: GrenadeShrapnel
   cost:
-    Telecrystal: 8 # goob
+    Telecrystal: 1 # goob
   categories:
   - UplinkExplosives
   conditions: # Goob, two times cheaper for nukies
@@ -643,7 +643,7 @@
   description: uplink-incendiary-grenade-desc
   productEntity: GrenadeIncendiary
   cost:
-    Telecrystal: 8 # goob
+    Telecrystal: 2 # goob
   categories:
   - UplinkExplosives
   conditions: # Goob, two times cheaper for nukies
