@@ -129,7 +129,7 @@
   - blab
   name: blob-title
   description: blob-description
-  showInVote: false
+  showInVote: true
   rules:
   - BlobGameMode
   - BasicStationEventScheduler
@@ -202,7 +202,7 @@
     - entropy
   name: secretplus-mid-title
   description: secretplus-mid-description
-  showInVote: false
+  showInVote: true
   rules:
     - SecretPlusMid
 
@@ -227,7 +227,7 @@
     - survivalnew
   name: survivalplus-title
   description: survivalplus-description
-  showInVote: false
+  showInVote: true
   rules:
     - SecretPlusRampingMid
 
