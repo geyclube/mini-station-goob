@@ -607,7 +607,7 @@
   icon: { sprite: _Goobstation/Clothing/OuterClothing/second_skin.rsi, state: action }
   productEntity: SecondSkinSyndicate
   cost:
-    Telecrystal: 10
+    Telecrystal: 6
   categories:
   - UplinkWearables
 
@@ -618,7 +618,7 @@
   icon: { sprite: /Textures/_Goobstation/Clothing/Hands/Gloves/guerrilla.rsi, state: icon }
   productEntity: ClothingHandsGlovesGuerrilla
   cost:
-    Telecrystal: 20
+    Telecrystal: 10
   categories:
   - UplinkWearables
 
@@ -810,7 +810,7 @@
   icon: { sprite: Objects/Weapons/Melee/plasma_spear.rsi, state: spear }
   productEntity: SpearGreyTide
   cost:
-    Telecrystal: 50
+    Telecrystal: 15
   categories:
   - UplinkJob
   conditions:
@@ -1656,6 +1656,6 @@
   description: uplink-customboard-desc
   productEntity: SyndicateCustomLawboard
   cost:
-    Telecrystal: 50 # Same price as what Antimov was. Might be worth increasing the price for nukies as they can do some BAD things with this.
+    Telecrystal: 15 # Same price as what Antimov was. Might be worth increasing the price for nukies as they can do some BAD things with this.
   categories:
   - UplinkDisruption
