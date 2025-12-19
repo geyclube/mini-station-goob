@@ -285,8 +285,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: VirologistPDA
-  name: virology PDA
-  description: You're not sure if touching it is safe.
+  name: КПК вирусолога
+  description: Блестящий и вероятно заразный.
   components:
   - type: Pda
     id: VirologistIDCard
