@@ -142,7 +142,7 @@
       tags:
       - DoorBumpOpener
       - FootstepSound
-    - type: Megafauna
+    # - type: Megafauna
       loot: ClothingOuterHasturRobes
     - type: Sprinter
     - type: CombatPower
@@ -150,7 +150,7 @@
 
 - type: entity
   name: ????
-  parent: SimpleSpaceMobBase 
+  parent: SimpleSpaceMobBase
   id: MobHasturClone
   suffix: DO NOT MAP
   description: He who must not be named...
