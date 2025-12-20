@@ -1241,7 +1241,7 @@
   description: uplink-super-surplus-bundle-desc
   productEntity: CrateSyndicateSuperSurplusBundle
   cost:
-    Telecrystal: 40
+    Telecrystal: 60
   categories:
   - UplinkDisruption
   conditions:
