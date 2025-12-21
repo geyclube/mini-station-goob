@@ -20,6 +20,18 @@ reagent-effect-guidebook-deal-stamina-damage =
                     *[false] overtime
                   } stamina damage
 
+reagent-effect-guidebook-stealth-entities = Маскирует живых мобов поблизости.
+
+reagent-effect-guidebook-change-faction = Меняет фракцию моба на «{$faction}».
+
+reagent-effect-guidebook-mutate-plants-nearby = Случайным образом мутирует ближайшие растения.
+
+reagent-effect-guidebook-dnascramble = Шифрует ДНК человека.
+
+reagent-effect-guidebook-change-species = Превращает цель в {$species}.
+
+reagent-effect-guidebook-sex-change = Меняет гендер человека.
+
 reagent-effect-guidebook-immunity-modifier =
     { $chance ->
         [1] Modifies
@@ -31,3 +43,5 @@ reagent-effect-guidebook-disease-progress-change =
         [1] Modifies
         *[other] modify
     } progress of {$type} diseases by {NATURALFIXED($amount, 5)}
+
+reagent-effect-guidebook-disease-mutate = Mutates diseases by {NATURALFIXED($amount, 4)}
