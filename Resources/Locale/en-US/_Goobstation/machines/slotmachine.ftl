@@ -21,3 +21,6 @@ coinflipper-win = Выигрыш! Вы получаете {$amount} кредит
 clawmachine-fail-self = Ты промахиваешься и роняешь плюшевую игрушку!
 clawmachine-fail-other = {$user} промахивается и роняет плюшевую игрушку!
 clawmachine-fail-generic = Плюшевая игрушка выпала из клешни. Как жаль...
+
+blob-title = Блоб
+xenomorph-title = Ксеноморфы

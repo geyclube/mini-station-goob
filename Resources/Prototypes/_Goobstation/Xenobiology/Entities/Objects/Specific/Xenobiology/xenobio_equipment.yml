@@ -56,8 +56,8 @@
 - type: entity
   id: WeaponXenoVacNozzle
   parent: BaseItem
-  name: xenovac nozzle
-  description: A high-powered vacuum nozzle used in conjunction with a backpack-mounted storage tank to store slimes.
+  name: сопло
+  description: Высокомощное вакуумное сопло, используемое вместе с наплечным накопительным баллоном для хранения слизней.
   components:
   - type: Sprite
     sprite: _Goobstation/Xenobiology/Specific/Xenobiology/slime_nozzle.rsi
