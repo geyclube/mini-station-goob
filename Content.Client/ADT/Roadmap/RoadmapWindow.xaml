@@ -18,6 +18,8 @@
                     <controls:RoadmapVersionHeader Text="Текущая версия" />
                     <controls:RoadmapItem ItemState="InProgress" HeaderText="Тайпан" Text="Сверхсекретная станция синдиката со своим уникальным НИО, майнерами телекристаллов и ксенолабораторией!" />
                     <controls:RoadmapItem ItemState="Complete" HeaderText="Ребаланс аплинка" Text="Синтез предметов Goob Station и авторского баланса Мини-станции!" />
+                    <controls:RoadmapItem ItemState="Complete" HeaderText="Ксенобиология" Text="Ксенобиология - это разведение и сбор слаймов и их экстрактов в научных целях. Все это происходит в укомплектованной ксенобиологической лаборатории!" />
+                    <controls:RoadmapItem ItemState="Complete" HeaderText="Вирусология" Text="Итак вы хотите быть вирусологом, создателем смертельного вируса? Или просто хотите лечить вирусы, заражающие станцию? Тогда это для вас!" />
                 </BoxContainer>
                 <BoxContainer Name="SecondVersion" Access="Public" Orientation="Vertical" HorizontalExpand="True" Margin="0 0 20 0">
                     <controls:RoadmapVersionHeader Text="Предстоящее" />
