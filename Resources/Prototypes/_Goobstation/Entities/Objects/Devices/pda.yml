@@ -350,8 +350,8 @@
 - type: entity
   parent: BasePDA
   id: RadioHostPDA
-  name: radio host PDA
-  description: You're listening to the smooth sounds of 145.9 FM.
+  name: КПК радио ведущего
+  description: Вы слушаете лучшие хиты на этой стороне галактики!
   components:
   - type: Pda
     id: RadioHostIDCard

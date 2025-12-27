@@ -145,8 +145,8 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltRadioHost
-  name: Radio host's over-ear headset
-  description: An over-ear headset with extra foam padding around the ears.
+  name: гарнитурa радио ведущего
+  description: Гарнитура радио ведущего, позволяющая вещать на все частоты станции.
   components:
   - type: ContainerFill
     containers:
