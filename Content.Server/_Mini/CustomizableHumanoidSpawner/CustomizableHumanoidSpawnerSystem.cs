@@ -6,7 +6,7 @@ using Content.Server.Ghost.Roles;
 using Content.Server.Mind;
 using Content.Server.Preferences.Managers;
 using Content.Server.Station.Systems;
-using Content.Shared.Mini.CustomizableHumanoidSpawner;
+using Content.Shared._Mini.CustomizableHumanoidSpawner;
 using Content.Shared.Mind.Components;
 using Content.Shared.NPC.Systems;
 using Content.Shared.Preferences;
@@ -18,7 +18,7 @@ using Content.Shared.Speech;
 using Content.Shared.Tag;
 using Robust.Shared.Serialization.Manager;
 
-namespace Content.Server.Mini.CustomizableHumanoidSpawner;
+namespace Content.Server._Mini.CustomizableHumanoidSpawner;
 
 public sealed class CustomizableHumanoidSpawnerSystem : EntitySystem
 {

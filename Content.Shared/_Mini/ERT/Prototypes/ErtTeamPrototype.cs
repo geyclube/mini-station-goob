@@ -1,10 +1,10 @@
 
 using Robust.Shared.Prototypes;
-using Content.Shared.Mini.TimeWindow;
+using Content.Shared._Mini.TimeWindow;
 using Content.Shared.Storage;
 using Robust.Shared.Audio;
 
-namespace Content.Shared.Mini.ERT.Prototypes;
+namespace Content.Shared._Mini.ERT.Prototypes;
 
 [Prototype("ertTeam")]
 public sealed partial class ErtTeamPrototype : IPrototype

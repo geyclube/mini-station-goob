@@ -27,37 +27,37 @@
     - id: RandomHumanoidSpawnerCBURNAgent
       amount: 1
 
-- type: ertTeam
-  id: Engineers
-  name: ОБР Инженеры
-  startAnnouncement: station-event-response-team-arrival
-  startAudio:
-    path: /Audio/_Mini/Announcements/ERT/spawn.ogg
-  description:
-    Отряд инженеров NanoTrasen, специализирующихся на ремонте и техническом обслуживании
-    космических станций и кораблей. Они обладают обширными знаниями в области
-    инженерии, систем жизнеобеспечения и ремонта оборудования.
-    4 инженера прибывают на инженерном шаттле, оснащённом всем необходимым оборудованием
-    для выполнения их миссии.
-    Время прибытия отряда от 5 до 10 минут.
-  rule: SpawnEngineersShuttle
-  cooldown:
-    min: 10m
-    max: 10m
-  spawnWindow:
-    min: 5m
-    max: 10m
-  price: 2
-  codeBlackList:
-  - red
-  - delta
-  - epsilon
-  - gamma
-  spawns:
-    - id: RandomHumanoidSpawnerERTLeaderAmber
-      amount: 1
-    - id: RandomHumanoidSpawnerERTEngineerAmber
-      amount: 3
+# - type: ertTeam
+#   id: Engineers
+#   name: ОБР Инженеры
+#   startAnnouncement: station-event-response-team-arrival
+#   startAudio:
+#     path: /Audio/_Mini/Announcements/ERT/spawn.ogg
+#   description:
+#     Отряд инженеров NanoTrasen, специализирующихся на ремонте и техническом обслуживании
+#     космических станций и кораблей. Они обладают обширными знаниями в области
+#     инженерии, систем жизнеобеспечения и ремонта оборудования.
+#     4 инженера прибывают на инженерном шаттле, оснащённом всем необходимым оборудованием
+#     для выполнения их миссии.
+#     Время прибытия отряда от 5 до 10 минут.
+#   rule: SpawnEngineersShuttle
+#   cooldown:
+#     min: 10m
+#     max: 10m
+#   spawnWindow:
+#     min: 5m
+#     max: 10m
+#   price: 2
+#   codeBlackList:
+#   - red
+#   - delta
+#   - epsilon
+#   - gamma
+#   spawns:
+#     - id: RandomHumanoidSpawnerERTLeaderAmber
+#       amount: 1
+#     - id: RandomHumanoidSpawnerERTEngineerAmber
+#       amount: 3
 
 - type: ertTeam
   id: Blue

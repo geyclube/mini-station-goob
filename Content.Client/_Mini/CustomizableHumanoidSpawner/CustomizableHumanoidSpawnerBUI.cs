@@ -1,10 +1,10 @@
 
 
-using Content.Shared.Mini.CustomizableHumanoidSpawner;
+using Content.Shared._Mini.CustomizableHumanoidSpawner;
 using JetBrains.Annotations;
 using Robust.Client.UserInterface;
 
-namespace Content.Client.Mini.CustomizableHumanoidSpawner;
+namespace Content.Client._Mini.CustomizableHumanoidSpawner;
 
 [UsedImplicitly]
 public sealed class CustomizableHumanoidSpawnerBUI(EntityUid owner, Enum uiKey) : BoundUserInterface(owner, uiKey)

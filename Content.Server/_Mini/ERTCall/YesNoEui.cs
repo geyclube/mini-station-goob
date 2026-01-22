@@ -1,8 +1,8 @@
 using Content.Server.EUI;
-using Content.Shared.Mini.UI;
+using Content.Shared._Mini.UI;
 using Content.Shared.Eui;
 
-namespace Content.Server.Mini.ERT
+namespace Content.Server._Mini.ERT
 {
     public sealed class YesNoEui : BaseEui
     {

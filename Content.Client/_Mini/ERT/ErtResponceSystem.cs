@@ -1,7 +1,7 @@
 
-using Content.Shared.Mini.ERT;
+using Content.Shared._Mini.ERT;
 
-namespace Content.Client.Mini.ERT;
+namespace Content.Client._Mini.ERT;
 
 public sealed class ErtResponceSystem : SharedErtResponceSystem
 {

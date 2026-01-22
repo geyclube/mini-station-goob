@@ -1,5 +1,5 @@
 
-namespace Content.Server.Mini.ERT.Components;
+namespace Content.Server._Mini.ERT.Components;
 
 /// <summary>
 /// Компонент для бойцов ERT отряда.

@@ -1,10 +1,10 @@
 
-using Content.Shared.Mini.ERT.Prototypes;
+using Content.Shared._Mini.ERT.Prototypes;
 using Content.Shared.Shuttles.Systems;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 
-namespace Content.Shared.Mini.ERT;
+namespace Content.Shared._Mini.ERT;
 
 [Serializable, NetSerializable]
 public sealed class ErtResponceConsoleBoundUserInterfaceState : BoundUserInterfaceState

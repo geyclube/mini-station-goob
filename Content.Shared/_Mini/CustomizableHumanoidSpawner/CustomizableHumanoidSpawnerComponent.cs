@@ -10,7 +10,7 @@ using Content.Shared.Roles;
 using Content.Shared.Tag;
 using Robust.Shared.Enums;
 
-namespace Content.Shared.Mini.CustomizableHumanoidSpawner;
+namespace Content.Shared._Mini.CustomizableHumanoidSpawner;
 
 [RegisterComponent]
 [NetworkedComponent]

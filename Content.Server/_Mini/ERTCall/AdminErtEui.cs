@@ -1,9 +1,9 @@
 
 using Content.Server.EUI;
-using Content.Shared.Mini.ERT;
+using Content.Shared._Mini.ERT;
 using Content.Shared.Eui;
 
-namespace Content.Server.Mini.ERT;
+namespace Content.Server._Mini.ERT;
 
 public sealed class AdminErtEui : BaseEui
 {

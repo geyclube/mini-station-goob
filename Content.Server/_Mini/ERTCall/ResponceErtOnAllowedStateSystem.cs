@@ -1,5 +1,5 @@
 
-using Content.Server.Mini.ERT.Components;
+using Content.Server._Mini.ERT.Components;
 using Content.Shared.Mobs;
 using Robust.Server.Player;
 using Robust.Shared.Player;
@@ -8,7 +8,7 @@ using Content.Server.Roles;
 using Content.Server.Mind;
 using Content.Shared.Mind.Components;
 
-namespace Content.Server.Mini.ERT;
+namespace Content.Server._Mini.ERT;
 
 public sealed class ResponceErtOnAllowedStateSystem : EntitySystem
 {

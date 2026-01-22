@@ -1,8 +1,8 @@
 
 using Robust.Shared.Prototypes;
-using Content.Shared.Mini.ERT.Prototypes;
+using Content.Shared._Mini.ERT.Prototypes;
 
-namespace Content.Shared.Mini.ERT;
+namespace Content.Shared._Mini.ERT;
 
 public abstract class SharedErtResponceSystem : EntitySystem
 {

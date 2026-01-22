@@ -3,14 +3,14 @@ using Content.Server.Power.EntitySystems;
 using Content.Shared.UserInterface;
 using Content.Shared.Power;
 using Robust.Server.GameObjects;
-using Content.Server.Mini.ERTCall;
-using Content.Shared.Mini.ERT;
+using Content.Server._Mini.ERTCall;
+using Content.Shared._Mini.ERT;
 using Content.Server.Station.Systems;
 using Content.Shared.Cargo.Components;
 using Content.Server.Chat.Systems;
 using Content.Shared.Chat;
 
-namespace Content.Server.Mini.ERT;
+namespace Content.Server._Mini.ERT;
 
 public sealed class ErtResponceConsoleSystem : EntitySystem
 {

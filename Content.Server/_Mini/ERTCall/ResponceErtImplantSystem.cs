@@ -1,7 +1,7 @@
-using Content.Server.Mini.ERT.Components;
+using Content.Server._Mini.ERT.Components;
 using Content.Shared.Implants;
 
-namespace Content.Server.Mini.ERT;
+namespace Content.Server._Mini.ERT;
 
 public sealed class ResponceErtImplantSystem : EntitySystem
 {

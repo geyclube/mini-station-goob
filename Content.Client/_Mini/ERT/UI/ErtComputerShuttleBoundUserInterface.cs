@@ -1,9 +1,9 @@
 
 using JetBrains.Annotations;
 using Robust.Client.UserInterface;
-using Content.Shared.Mini.ERT;
+using Content.Shared._Mini.ERT;
 
-namespace Content.Client.Mini.ERT.UI
+namespace Content.Client._Mini.ERT.UI
 {
     [UsedImplicitly]
     public sealed class ErtComputerShuttleBoundUserInterface : BoundUserInterface

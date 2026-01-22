@@ -1,7 +1,7 @@
 
 using Robust.Shared.Serialization;
 
-namespace Content.Shared.Mini.ERT
+namespace Content.Shared._Mini.ERT
 {
     [Serializable, NetSerializable]
     public sealed class RequestErtAdminStateMessage : EntityEventArgs

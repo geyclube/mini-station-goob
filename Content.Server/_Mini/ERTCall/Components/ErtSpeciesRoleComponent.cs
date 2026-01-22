@@ -1,7 +1,7 @@
 
-using Content.Server.Mini.ERT;
+using Content.Server._Mini.ERT;
 
-namespace Content.Server.Mini.ERTCall;
+namespace Content.Server._Mini.ERTCall;
 
 [RegisterComponent, Access(typeof(ErtResponceSystem))]
 public sealed partial class ErtSpeciesRoleComponent : Component

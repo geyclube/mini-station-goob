@@ -1,9 +1,9 @@
 
-using Content.Shared.Mini.ERT.Prototypes;
+using Content.Shared._Mini.ERT.Prototypes;
 using Content.Shared.Mobs;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server.Mini.ERT.Components;
+namespace Content.Server._Mini.ERT.Components;
 
 [RegisterComponent]
 public sealed partial class ResponceErtOnAllowedStateComponent : Component

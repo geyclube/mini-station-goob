@@ -1,6 +1,6 @@
 
 using Content.Server.EUI;
-using Content.Server.Mini.ERT;
+using Content.Server._Mini.ERT;
 using Content.Shared.Administration;
 using Robust.Shared.Console;
 

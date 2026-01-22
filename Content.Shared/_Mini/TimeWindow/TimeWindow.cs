@@ -2,7 +2,7 @@
 using Robust.Shared.Timing;
 using Robust.Shared.Random;
 
-namespace Content.Shared.Mini.TimeWindow;
+namespace Content.Shared._Mini.TimeWindow;
 
 [DataDefinition]
 public sealed partial class TimedWindow

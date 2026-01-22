@@ -1,11 +1,11 @@
 
 using Content.Client.Administration.UI.Tabs.AdminTab;
 using Content.Client.Eui;
-using Content.Shared.Mini.ERT;
+using Content.Shared._Mini.ERT;
 using Content.Shared.Eui;
 using JetBrains.Annotations;
 
-namespace Content.Client.Mini.ERT;
+namespace Content.Client._Mini.ERT;
 
 [UsedImplicitly]
 public sealed class AdminErtEui : BaseEui

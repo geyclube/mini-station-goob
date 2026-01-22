@@ -2,7 +2,7 @@
 using Content.Shared.Eui;
 using Robust.Shared.Serialization;
 
-namespace Content.Shared.Mini.UI
+namespace Content.Shared._Mini.UI
 {
     [Serializable, NetSerializable]
     public enum YesNoUiButton

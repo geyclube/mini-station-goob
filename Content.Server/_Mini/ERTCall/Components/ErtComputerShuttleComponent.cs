@@ -1,7 +1,7 @@
 
-using Content.Shared.Mini.TimeWindow;
+using Content.Shared._Mini.TimeWindow;
 
-namespace Content.Server.Mini.ERTCall;
+namespace Content.Server._Mini.ERTCall;
 
 [RegisterComponent]
 public sealed partial class ErtComputerShuttleComponent : Component

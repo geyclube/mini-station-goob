@@ -1,10 +1,10 @@
 
 using Content.Server.Chat.Systems;
-using Content.Shared.Mini.ERT;
-using Content.Shared.Mini.ERT.Prototypes;
-using Content.Shared.Mini.TimeWindow;
+using Content.Shared._Mini.ERT;
+using Content.Shared._Mini.ERT.Prototypes;
+using Content.Shared._Mini.TimeWindow;
 using Robust.Shared.Prototypes;
-using Content.Server.Mini.ERTCall;
+using Content.Server._Mini.ERTCall;
 using Content.Server.GameTicking.Rules;
 using System.Linq;
 using Content.Shared.Storage;
@@ -19,14 +19,14 @@ using Content.Shared.Administration.Logs;
 using Content.Shared.Database;
 using Robust.Shared.Timing;
 using Content.Shared.Pinpointer;
-using Content.Server.Mini.ERT.Components;
+using Content.Server._Mini.ERT.Components;
 using Content.Server.Station.Systems;
 using Content.Server.GameTicking;
 using Content.Shared.GameTicking.Components;
 using Robust.Shared.EntitySerialization.Systems;
 using Robust.Shared.EntitySerialization;
 
-namespace Content.Server.Mini.ERT;
+namespace Content.Server._Mini.ERT;
 
 /// <summary>
 /// Данные ожидаемой команды ERT.

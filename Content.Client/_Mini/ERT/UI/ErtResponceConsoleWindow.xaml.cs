@@ -4,10 +4,10 @@ using Robust.Client.UserInterface.CustomControls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Prototypes;
 using Robust.Client.UserInterface.Controls;
-using Content.Shared.Mini.ERT;
-using Content.Shared.Mini.ERT.Prototypes;
+using Content.Shared._Mini.ERT;
+using Content.Shared._Mini.ERT.Prototypes;
 
-namespace Content.Client.Mini.ERT.UI
+namespace Content.Client._Mini.ERT.UI
 {
     [GenerateTypedNameReferences]
     public sealed partial class ErtResponceConsoleWindow : DefaultWindow

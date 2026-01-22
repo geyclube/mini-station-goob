@@ -1,10 +1,10 @@
 
-using Content.Server.Mini.ERT;
-using Content.Server.Mini.SpawnERTShuttleCommand;
-using Content.Shared.Mini.ERT.Prototypes;
+using Content.Server._Mini.ERT;
+using Content.Server._Mini.SpawnERTShuttleCommand;
+using Content.Shared._Mini.ERT.Prototypes;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server.Mini.ERTCall;
+namespace Content.Server._Mini.ERTCall;
 
 [RegisterComponent, Access(typeof(ErtResponceSystem))]
 public sealed partial class ErtSpawnRuleComponent : Component

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DefaultWindow xmlns="https://spacestation14.io"
                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-               x:Class="Content.Client.Mini.ERT.UI.ErtResponceConsoleWindow"
+               x:Class="Content.Client._Mini.ERT.UI.ErtResponceConsoleWindow"
                Title="{Loc 'ert-responce-window-title'}"
                MinSize="700 500"
                SetSize="800 600">

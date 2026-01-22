@@ -3,9 +3,9 @@ using Content.Server.Power.EntitySystems;
 using Content.Shared.UserInterface;
 using Content.Shared.Power;
 using Robust.Server.GameObjects;
-using Content.Server.Mini.ERTCall;
-using Content.Shared.Mini.ERT;
-using Content.Shared.Mini.TimeWindow;
+using Content.Server._Mini.ERTCall;
+using Content.Shared._Mini.ERT;
+using Content.Shared._Mini.TimeWindow;
 using Content.Server.Chat.Systems;
 using Content.Shared.Chat;
 using Robust.Shared.Timing;
@@ -14,7 +14,7 @@ using Content.Server.Shuttles.Systems;
 using Content.Server.Shuttles.Events;
 using Content.Shared.Station.Components;
 
-namespace Content.Server.Mini.ERT;
+namespace Content.Server._Mini.ERT;
 
 public sealed class ErtComputerShuttleSystem : EntitySystem
 {

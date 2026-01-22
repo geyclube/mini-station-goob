@@ -1,9 +1,9 @@
 
 using Content.Shared.Cargo.Prototypes;
-using Content.Shared.Mini.ERT.Prototypes;
+using Content.Shared._Mini.ERT.Prototypes;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server.Mini.ERTCall;
+namespace Content.Server._Mini.ERTCall;
 
 [RegisterComponent]
 public sealed partial class ErtResponceConsoleComponent : Component

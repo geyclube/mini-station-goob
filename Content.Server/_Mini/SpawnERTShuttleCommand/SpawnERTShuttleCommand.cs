@@ -11,7 +11,7 @@ using Content.Shared.Tag;
 using Robust.Shared.Prototypes;
 using Robust.Shared.EntitySerialization.Systems;
 
-namespace Content.Server.Mini.SpawnERTShuttleCommand;
+namespace Content.Server._Mini.SpawnERTShuttleCommand;
 
 [AdminCommand(AdminFlags.Spawn)]
 public sealed class SpawnERTShuttleCommand : LocalizedCommands
