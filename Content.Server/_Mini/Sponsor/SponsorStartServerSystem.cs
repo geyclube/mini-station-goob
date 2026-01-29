@@ -14,7 +14,6 @@ public sealed class DonatorStartupSystem : EntitySystem
     {
         base.PostInject();
         Task.Run(async () => await LoadSponsorsToStaticList());
-        SponsorInfoComponent.listOfSponsors.Add(new SponsorInfoComponent.SponsorInfo("9947f933-b928-4c37-ae04-76e179388caa", 4));
     }
     
     public async Task LoadSponsorsToStaticList()
